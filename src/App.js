@@ -26,7 +26,7 @@ class App extends React.Component {
    
     render(){
       return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Route exact path="/MainPage" 
         render={(props) => <MainPage {...props} 
         />} />
