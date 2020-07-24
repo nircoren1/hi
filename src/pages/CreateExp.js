@@ -18,7 +18,7 @@ class CreateExp extends React.Component {
   constructor(props){
     super(props)
     this.state={
-      image: "./logo192.png" ,
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" ,
       storyName: "" ,
       date:null,
       storyDescription:null ,
@@ -121,7 +121,7 @@ class CreateExp extends React.Component {
  this.setState({
   storyDescription:"",
   storyName:"",
-  image:"./logo192.png",
+  image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png",
   mainPageDate:document.getElementById("datePicker").getAttribute("value"),
   startDate: new Date(),
 
