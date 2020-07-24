@@ -57,7 +57,7 @@ class MainPage extends React.Component {
         <Button variant="contained" color="primary" className="noDecoration"  >Create a new story</Button>
       </Link>
       <Board className="trashBlock">
-      <img className="trash"src="/trash.png" alt="" />
+      <img className="trash"src="./trash.png" alt="" />
       </Board>
       <Board  className="netflixslide">
         {
